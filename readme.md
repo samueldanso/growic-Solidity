@@ -1,1 +1,1 @@
-Growic Solidity Developer Program: Samuel's Assigments
+# Growic Solidity Developer Program: Samuel's Assigments
