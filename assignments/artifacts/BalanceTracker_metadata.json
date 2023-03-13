@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"assignments/mappings.sol": {
-			"keccak256": "0x38af3e77873ff817251733d50e3959abb9039aa33b948ca3a23387f5b9ea83a5",
+			"keccak256": "0x6d5310f6a64b37638832fba1d95be3a73a2d95278d437a0e0fd9ba5694e4d3f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://70b8a4b120ef8e0b8f9984d1368962fffac13aa1d4b218eea8b245cb71d7f7db",
-				"dweb:/ipfs/Qmaee9BiEHdSEVxRoHVD8XiEXs1KWr26T7ZJzAtyAP91BP"
+				"bzz-raw://44ce35f65f75b2a51b8f79c0eb33d0c35cda7408692a94234453520a967a5733",
+				"dweb:/ipfs/Qmc3akbTQHKoJu8UFb3EfNXimiRgCrwFf4DDp3HM5tWnkL"
 			]
 		}
 	},
