@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignments/mappings.sol": "BalanceTracker"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignments/mappings.sol": {
+			"keccak256": "0x38af3e77873ff817251733d50e3959abb9039aa33b948ca3a23387f5b9ea83a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70b8a4b120ef8e0b8f9984d1368962fffac13aa1d4b218eea8b245cb71d7f7db",
+				"dweb:/ipfs/Qmaee9BiEHdSEVxRoHVD8XiEXs1KWr26T7ZJzAtyAP91BP"
+			]
+		}
+	},
+	"version": 1
+}
