@@ -7,12 +7,55 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addFund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getUserDetails",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
@@ -27,12 +70,12 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "_name",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "age",
+						"name": "_age",
 						"type": "uint256"
 					}
 				],
@@ -60,9 +103,32 @@
 						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasDeposited",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -79,7 +145,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"assignments/structs.sol": "UserInfo"
+			"assignments/modifiers.sol": "UserInfo"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -93,12 +159,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"assignments/structs.sol": {
-			"keccak256": "0x5e02ee4261eb9c90ad6c2f614eb4c4e9a97c414473d45a2f8d41777763f1b49a",
+		"assignments/modifiers.sol": {
+			"keccak256": "0xc210296b99949eb28376acb42dc3b630a4a5fd49627d6521d3dca23aa27646d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d2b29e1d59c59a0e006d640efaad157acd9284c4d2fc810c2f90ad952f6a1e07",
-				"dweb:/ipfs/Qmb6mDDbnGzRteYiLUZk7QDSmUyDmXmu4SRaArb7WRJngE"
+				"bzz-raw://a5495459e72b62bb1a99142aa66aac694e474a2908cc32e12554f29c37ef1339",
+				"dweb:/ipfs/QmZTEMNaWkCf8ozyLSbscyvKeAtxP26nAq5UXG1t3hrAkW"
 			]
 		}
 	},
